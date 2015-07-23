@@ -35,6 +35,10 @@ banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 theme_color:
     theme: '#2ca6cb'    ##the defaut theme color is blue
 
+# 代码高亮主题
+# available: default | night
+highlight_theme: night
+
 #### index post is expanding or not 
 index:
   expand: false           ## default is unexpanding,so you can only see the short description of each post.
@@ -84,7 +88,7 @@ disqus_shortname:   jinxingblog  ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
-  enable: true ## if you use jiathis as your share tool,the built-in share tool won't be display.
+  enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id:  376637405  ## e.g. 1889330 your jiathis ID. 
   tsina: ## e.g. 2176287895 Your weibo id,It will be used in share button.
 
